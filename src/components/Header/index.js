@@ -13,7 +13,7 @@ const Header = () => {
             </Box>
             <Saldo>
                 <span>Sócio Nominal: Abel das Entrega</span>
-                <span>Saldo: R$ 985.000.259,00</span>
+                <span>Saldo: R$ 19,70</span>
             </Saldo>
             </Wrapper>
         </Container>
