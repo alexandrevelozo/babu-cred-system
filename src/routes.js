@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import CompletedAccount from './components/CompletedAccount'
 import Holders from './pages/Holders'
 
 import Landing from './pages/Landing'
@@ -12,6 +13,7 @@ const Routes = () => {
             <Switch>
                 <Route exact path="/" component={Landing} />
                 <Route path="/createaccount" component={CreateAccount} />
+                <Route path="/succeded" component={CompletedAccount} />
                 <Route path="/acionistas" component={Holders} />                
                 <Route path="/reports" component={Reports} />
             </Switch>

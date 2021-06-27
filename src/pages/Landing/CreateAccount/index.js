@@ -1,9 +1,15 @@
+import { useHistory } from 'react-router-dom'
 import { Container, Box } from './styles'
 
 import Header from '../../../components/Header'
 import Menu from '../../../components/Menu'
 
 const CreateAccount = () => {
+    const history = useHistory()
+
+    function navigate() {
+        history.push('/succeded')
+    }
     return (
         <>
             <Header />
@@ -36,7 +42,7 @@ const CreateAccount = () => {
                         <input placeholder="Insira seu número" />
                     </div>
                     <div>
-                        <button>Cadastrar babusada</button>
+                        <button onClick={navigate}>Cadastrar babusada</button>
                     </div>
                 </Box>
             </Container>
