@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Holders from './pages/Holders'
 
 import Landing from './pages/Landing'
+import CreateAccount from './pages/Landing/CreateAccount'
 import Reports from './pages/Reports'
 
 const Routes = () => {
@@ -10,8 +11,9 @@ const Routes = () => {
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Landing} />
-                <Route exact path="/acionistas" component={Holders} />                <Route exact path="/acionistas" component={Holders} />
-                <Route exact path="/reports" component={Reports} />
+                <Route path="/createaccount" component={CreateAccount} />
+                <Route path="/acionistas" component={Holders} />                
+                <Route path="/reports" component={Reports} />
             </Switch>
         </BrowserRouter>
     )

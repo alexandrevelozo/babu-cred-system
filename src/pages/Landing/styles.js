@@ -40,5 +40,6 @@ export const Box = styled.div`
         font-size: 16px;
         font-weight: 500;
         cursor: pointer;
+        
     }
 `
