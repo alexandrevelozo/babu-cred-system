@@ -27,7 +27,7 @@ const CreateAccount = () => {
                         <span>
                             Data de Nascimento
                         </span>
-                        <input placeholder="Insira a data de nascimento" />
+                        <input type="date" placeholder="Insira a data de nascimento" />
                     </div>
                     <div>
                         <span>
