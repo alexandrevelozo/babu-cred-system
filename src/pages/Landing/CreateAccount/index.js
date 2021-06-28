@@ -8,8 +8,14 @@ const CreateAccount = () => {
     const history = useHistory()
 
     function navigate() {
-        history.push('/succeded')
+        if (document.getElementById('input-ref').value == "") {
+            alert('Por favor preencha todos os campos para se tornar um babu!') 
+            
+        } else {
+            history.push('/succeded')
+        } 
     }
+
     return (
         <>
             <Header />
@@ -21,7 +27,7 @@ const CreateAccount = () => {
                         <span>
                             Nome Completo:
                         </span>
-                        <input placeholder="Insira o nome" />
+                        <input id="input-ref" placeholder="Insira o nome" />
                     </div>
                     <div>
                         <span>
