@@ -25,7 +25,7 @@ const CompletedAccount = () => {
     return (
         <Container>
             <span>Em breve te retornaremos com uma resposta do babu...</span>
-            <img src="https://scontent-gru1-1.xx.fbcdn.net/v/t1.6435-9/172899589_800578617241053_7249744988511919340_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=RqnNYYawQg8AX93rzPK&_nc_ht=scontent-gru1-1.xx&oh=8633f0b3e43f2db66e9d71b99872f9ea&oe=60D98260" alt="Babu System" />
+            <img src="https://github.com/alexandrevelozo.png" alt="Babu System" />
         </Container>
     )
 }

@@ -8,12 +8,7 @@ const CreateAccount = () => {
     const history = useHistory()
 
     function navigate() {
-        if (document.getElementById('input-ref').value == "") {
-            alert('Por favor preencha todos os campos para se tornar um babu!') 
-            
-        } else {
-            history.push('/succeded')
-        } 
+        history.push('/succeded')
     }
 
     return (
